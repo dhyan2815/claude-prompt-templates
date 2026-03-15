@@ -4,5 +4,4 @@ Thumbs.db
 
 # Gemini / CLI artifacts
 .gemini/
-GEMINI.md
 *.log
