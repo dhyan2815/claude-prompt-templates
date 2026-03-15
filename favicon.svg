@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c63ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6584;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sparkleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#bgGrad)" opacity="0.95"/>
+
+  <!-- Chat bubble shape -->
+  <path d="M20 18 h24 a6 6 0 0 1 6 6 v14 a6 6 0 0 1 -6 6 h-16 l-8 8 v-8 h0 a6 6 0 0 1 -6 -6 v-14 a6 6 0 0 1 6 -6 z"
+        fill="#ffffff" opacity="0.95"/>
+
+  <!-- Prompt lines inside bubble -->
+  <rect x="24" y="26" width="16" height="3" rx="1.5" fill="#6c63ff" opacity="0.8"/>
+  <rect x="24" y="32" width="12" height="3" rx="1.5" fill="#6c63ff" opacity="0.6"/>
+
+  <!-- AI sparkle stars -->
+  <g filter="url(#glow)">
+    <!-- Top right sparkle -->
+    <path d="M48 8 l1.5 4 l4 1.5 l-4 1.5 l-1.5 4 l-1.5 -4 l-4 -1.5 l4 -1.5 z" fill="url(#sparkleGrad)"/>
+
+    <!-- Bottom left sparkle -->
+    <path d="M10 44 l1 3 l3 1 l-3 1 l-1 3 l-1 -3 l-3 -1 l3 -1 z" fill="url(#sparkleGrad)" opacity="0.8"/>
+  </g>
+
+  <!-- Small decorative dots -->
+  <circle cx="52" cy="48" r="2" fill="#f7971e" opacity="0.9"/>
+  <circle cx="8" cy="20" r="1.5" fill="#43e97b" opacity="0.7"/>
+</svg>
