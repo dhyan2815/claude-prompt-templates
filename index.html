@@ -458,6 +458,27 @@
     font-size: 13px;
     display: none;
   }
+
+  /* CREDITS */
+  .credits {
+    text-align: center;
+    margin-top: -24px;
+    margin-bottom: 48px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+  }
+  .credits a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+  }
+  .credits a:hover {
+    color: var(--accent2);
+    text-decoration: underline;
+  }
 </style>
 </head>
 <body data-theme="dark">
@@ -492,6 +513,10 @@
     <div class="pill" data-filter="creative">Creative</div>
     <div class="pill" data-filter="task">Task & Productivity</div>
     <div class="pill" data-filter="learn">Learning</div>
+  </div>
+
+  <div class="credits">
+    Built with ⚡ by <a href="https://github.com/dhyan2815" target="_blank">Dhyan Patel</a> for the developer community
   </div>
 
   <div id="allContent">
