@@ -1,15 +1,9 @@
 # ⚡ Universal Claude Prompt Templates
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github)](https://dhyan2815.github.io/claude-prompt-templates/)
 [![Mobile Friendly](https://img.shields.io/badge/Mobile-Friendly-success?logo=googlechrome)](https://dhyan2815.github.io/claude-prompt-templates/)
 
 A high-performance, aesthetically pleasing, and production-ready collection of prompt templates specifically optimized for Claude and other modern Large Language Models (LLMs).
-
----
-
-## 🚀 Live Demo
-**[View the Live Site →](https://dhyan2815.github.io/claude-prompt-templates/)**
 
 ---
 
@@ -44,18 +38,6 @@ A high-performance, aesthetically pleasing, and production-ready collection of p
 
 ---
 
-## 💻 Local Development
-
-To run this project locally, simply clone the repository and open `index.html` in your browser.
-
-```bash
-git clone https://github.com/dhyan2815/claude-prompt-templates.git
-cd claude-prompt-templates
-# Open index.html in your preferred browser
-```
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you have a great prompt template or a feature idea:
@@ -66,11 +48,3 @@ Contributions are welcome! If you have a great prompt template or a feature idea
 5. Open a Pull Request.
 
 ---
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-*Generated and optimized with ⚡ Gemini CLI.*
