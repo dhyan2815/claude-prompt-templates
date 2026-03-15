@@ -68,7 +68,7 @@ claude-prompt-templates/
 ├── .gitignore                       # Git ignore rules
 ├── index.html                       # Main web application (1500+ lines)
 ├── README.md                        # Project documentation
-└── (this file) GEMINI.md            # Project summary
+└── (this file) CLAUDE.md            # Project summary
 ```
 
 ---
