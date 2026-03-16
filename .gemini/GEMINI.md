@@ -42,6 +42,7 @@
 6. **One-Click Copy**: Clipboard integration with visual feedback
 7. **Responsive Design**: Optimized for desktop, tablet, and mobile viewports
 8. **Syntax Highlighting**: Visual cues for placeholders `[LIKE_THIS]`
+9. **Automated CI/CD**: Seamless deployment to GitHub Pages on every push to `main`
 
 ---
 
@@ -54,6 +55,7 @@
 | **Icons** | Emoji-based and CSS-styled primitives (zero dependencies) |
 | **Persistence** | Browser `localStorage` API |
 | **Hosting** | GitHub Pages |
+| **Automation** | GitHub Actions (CI/CD) |
 
 ---
 
@@ -61,6 +63,9 @@
 
 ```
 claude-prompt-templates/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml              # CI/CD workflow for GitHub Pages
 ├── .claude/
 │   ├── CLAUDE_CODE_CHEATSHEET.md   # Quick reference for Claude Code
 │   ├── CLAUDE_CODE_GUIDE.md        # Professional guide for Claude Code
@@ -83,7 +88,7 @@ claude-prompt-templates/
 | Open locally | Open `index.html` in any modern browser |
 | Check status | `git status` |
 | View history | `git log --oneline` |
-| Push changes | `git push origin master` |
+| Push changes | `git push origin main` |
 
 ---
 
@@ -108,6 +113,8 @@ Each template includes:
 ## Recent Changes Summary
 
 ### 2026-03-16
+- **Branch Migration**: Renamed default branch from `master` to `main`.
+- **CI/CD Fix**: Implemented automated GitHub Pages deployment workflow in `.github/workflows/deploy.yml`.
 - **Added Claude Code Skills Guide**: Comprehensive documentation for creating and using custom agent skills in `.claude/CLAUDE_CODE_SKILLS_GUIDE.md`.
 - **New Report Generation Section**: Added 5 specialized report templates (Research, Test, Progress, Project Status, Performance).
 - **Documentation Standard**: Standardized project summary headers across documentation files.
