@@ -23,25 +23,25 @@
 
 | Commit | Date | Description |
 |--------|------|-------------|
-| `1f65c06` | 2026-03-16 | Feat: Added Report Generation section with 5 new templates (research, test, progress, project status, performance) |
-| `fd028ec` | 2026-03-15 | Refactor code structure - moved GEMINI.md to `.gemini/` directory, removed `web_app.html` |
-| `96105f3` | 2026-03-15 | Style: Updated prompt text colors for better readability in both themes |
-| `fc822d7` | 2026-03-15 | Docs: Upgraded README with detailed features, tech stack, and live link |
-| `66a935f` | 2026-03-15 | Refactor: Reorganized project structure with `.claude/` directory for Claude-specific docs |
-| `443562c` | 2026-03-15 | Include GEMINI.md in tracking and update memory |
-| `a3479f6` | 2026-03-15 | **Initial commit**: Enhanced Universal Claude Prompt Templates with Theme and Favorites |
+| `55dce8d` | 2026-03-16 | feat: add Report Generation section with 5 new templates |
+| `1f65c06` | 2026-03-16 | docs: standardize project summary headers in CLAUDE.md and GEMINI.md |
+| `db782dc` | 2026-03-15 | chore: remove unnecessary sections from README.md for clarity |
+| `afa770e` | 2026-03-15 | feat: add developer credits below navigation |
+| `3ad2ad0` | 2026-03-15 | feat: add beautiful favicon with AI chat bubble design |
+| `fd028ec` | 2026-03-15 | Refactor code structure - moved GEMINI.md to `.gemini/` directory |
 
 ---
 
 ## Key Features
 
 1. **35+ Expert Templates**: Curated prompts for Coding, Data Analysis, Reports, Creative Writing, Planning, and Learning
-2. **Dynamic Favorites System**: Save templates to localStorage for quick access
-3. **Adaptive UI**: Seamless dark/light mode toggle with localStorage persistence
-4. **Lightning Fast Filtering**: Instant search and category-based filtering
-5. **One-Click Copy**: Clipboard integration with visual feedback
-6. **Responsive Design**: Optimized for desktop, tablet, and mobile viewports
-7. **Syntax Highlighting**: Visual cues for placeholders `[LIKE_THIS]`
+2. **Claude Skills Integration**: Support for custom Claude Code agent skills
+3. **Dynamic Favorites System**: Save templates to localStorage for quick access
+4. **Adaptive UI**: Seamless dark/light mode toggle with localStorage persistence
+5. **Lightning Fast Filtering**: Instant search and category-based filtering
+6. **One-Click Copy**: Clipboard integration with visual feedback
+7. **Responsive Design**: Optimized for desktop, tablet, and mobile viewports
+8. **Syntax Highlighting**: Visual cues for placeholders `[LIKE_THIS]`
 
 ---
 
@@ -63,7 +63,8 @@
 claude-prompt-templates/
 ├── .claude/
 │   ├── CLAUDE_CODE_CHEATSHEET.md   # Quick reference for Claude Code
-│   └── CLAUDE_CODE_GUIDE.md        # Professional guide for Claude Code
+│   ├── CLAUDE_CODE_GUIDE.md        # Professional guide for Claude Code
+│   └── CLAUDE_CODE_SKILLS_GUIDE.md # New: Guide to creating agent skills
 ├── .gemini/
 │   └── GEMINI.md                    # Project summary for Gemini CLI
 ├── .gitignore                       # Git ignore rules
@@ -107,12 +108,9 @@ Each template includes:
 ## Recent Changes Summary
 
 ### 2026-03-16
-- **New Report Generation Section**: Added 5 specialized report templates
-  - Research Report: Academic and business research documentation
-  - Test Report: QA and testing results documentation
-  - Progress Report: Periodic progress tracking
-  - Project Status Report: Comprehensive project status with RAG status
-  - Performance Report: Performance analysis and metrics
+- **Added Claude Code Skills Guide**: Comprehensive documentation for creating and using custom agent skills in `.claude/CLAUDE_CODE_SKILLS_GUIDE.md`.
+- **New Report Generation Section**: Added 5 specialized report templates (Research, Test, Progress, Project Status, Performance).
+- **Documentation Standard**: Standardized project summary headers across documentation files.
 
 ### 2026-03-15
 - **Initial Release**: Complete web application with 30+ prompt templates
