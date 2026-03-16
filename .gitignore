@@ -4,3 +4,4 @@ Thumbs.db
 
 # Gemini / CLI artifacts
 *.log
+.claude/settings.local.json
