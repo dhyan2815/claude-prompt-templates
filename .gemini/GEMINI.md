@@ -23,6 +23,7 @@
 
 | Commit | Date | Description |
 |--------|------|-------------|
+| `1f65c06` | 2026-03-16 | Feat: Added Report Generation section with 5 new templates (research, test, progress, project status, performance) |
 | `fd028ec` | 2026-03-15 | Refactor code structure - moved GEMINI.md to `.gemini/` directory, removed `web_app.html` |
 | `96105f3` | 2026-03-15 | Style: Updated prompt text colors for better readability in both themes |
 | `fc822d7` | 2026-03-15 | Docs: Upgraded README with detailed features, tech stack, and live link |
@@ -34,7 +35,7 @@
 
 ## Key Features
 
-1. **30+ Expert Templates**: Curated prompts for Coding, Data Analysis, Creative Writing, Planning, and Learning
+1. **35+ Expert Templates**: Curated prompts for Coding, Data Analysis, Reports, Creative Writing, Planning, and Learning
 2. **Dynamic Favorites System**: Save templates to localStorage for quick access
 3. **Adaptive UI**: Seamless dark/light mode toggle with localStorage persistence
 4. **Lightning Fast Filtering**: Instant search and category-based filtering
@@ -92,7 +93,7 @@ claude-prompt-templates/
 - **No build step required** - serves directly from GitHub Pages
 - **Theme system**: CSS custom properties (`--surface`, `--text`, `--border`, etc.)
 - **State management**: JavaScript objects with localStorage persistence
-- **Categories**: Coding, Data, Writing, Planning, Learning, Favorites
+- **Categories**: Coding, Data, Reports, Writing, Planning, Learning, Favorites
 
 ### Template Structure
 Each template includes:
@@ -104,6 +105,14 @@ Each template includes:
 ---
 
 ## Recent Changes Summary
+
+### 2026-03-16
+- **New Report Generation Section**: Added 5 specialized report templates
+  - Research Report: Academic and business research documentation
+  - Test Report: QA and testing results documentation
+  - Progress Report: Periodic progress tracking
+  - Project Status Report: Comprehensive project status with RAG status
+  - Performance Report: Performance analysis and metrics
 
 ### 2026-03-15
 - **Initial Release**: Complete web application with 30+ prompt templates

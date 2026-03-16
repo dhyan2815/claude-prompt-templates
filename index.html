@@ -496,7 +496,7 @@
   </header>
 
   <div class="stats-row">
-    <div class="stat"><div class="stat-num">30+</div><div class="stat-label">Templates</div></div>
+    <div class="stat"><div class="stat-num">35+</div><div class="stat-label">Templates</div></div>
     <div class="stat"><div class="stat-num">8</div><div class="stat-label">Categories</div></div>
     <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Copy-Paste</div></div>
     <div class="stat"><div class="stat-num">∞</div><div class="stat-label">Reusable</div></div>
@@ -508,6 +508,7 @@
     <div class="pill" data-filter="general">General Q&A</div>
     <div class="pill" data-filter="code">Code</div>
     <div class="pill" data-filter="document">Documents</div>
+    <div class="pill" data-filter="report">Reports</div>
     <div class="pill" data-filter="plan">Planning</div>
     <div class="pill" data-filter="data">Data & Analysis</div>
     <div class="pill" data-filter="creative">Creative</div>
@@ -1116,6 +1117,203 @@ Include: owner/role for each task, timeline, and a go/no-go checklist.</pre>
 
     </div>
 
+    <!-- ─── REPORTS ─── -->
+    <div class="section-label" data-section="report">
+      <div class="section-icon si-green">📋</div>
+      <h2>Report Generation</h2>
+      <span class="count">5 templates</span>
+    </div>
+    <div class="cards-grid" data-section="report">
+
+      <div class="card" data-cat="document" data-id="t34">
+        <div class="card-header">
+          <div class="card-title">🔬 Research Report</div>
+          <button class="star-btn" title="Add to Favorites" onclick="toggleFavorite('t34', this)">★</button>
+          <span class="tag c-green">Report</span>
+        </div>
+        <div class="card-body">
+          <pre id="t34">Write a comprehensive research report on the following topic.
+
+<span class="sec">Topic / Research Question:</span>
+<span class="ph">[WHAT ARE YOU RESEARCHING?]</span>
+
+<span class="sec">Purpose:</span> <span class="ph">[e.g. academic assignment / business decision / literature review]</span>
+<span class="sec">Target Audience:</span> <span class="ph">[who will read this report]</span>
+
+<span class="sec">Scope:</span>
+- Time period covered: <span class="ph">[e.g. last 5 years / 2020-2025]</span>
+- Geographic focus: <span class="ph">[global / specific region or country]</span>
+- Key aspects to cover:
+  - <span class="ph">[ASPECT 1]</span>
+  - <span class="ph">[ASPECT 2]</span>
+  - <span class="ph">[ASPECT 3]</span>
+
+<span class="sec">Sources available:</span> <span class="ph">[list any data sources, or "research independently"]</span>
+
+<span class="sec">Structure:</span> <span class="ph">[abstract / introduction / methodology / findings / conclusion / references]</span>
+<span class="sec">Length:</span> <span class="ph">[short (~1000 words) / standard (~2500 words) / detailed (5000+)]</span>
+
+Include: data visualizations descriptions, key statistics, and actionable insights.</pre>
+          <button class="copy-btn" onclick="copyTemplate('t34', this)">⎘ Copy</button>
+        </div>
+      </div>
+
+      <div class="card" data-cat="document" data-id="t35">
+        <div class="card-header">
+          <div class="card-title">🧪 Test Report</div>
+          <button class="star-btn" title="Add to Favorites" onclick="toggleFavorite('t35', this)">★</button>
+          <span class="tag c-green">Report</span>
+        </div>
+        <div class="card-body">
+          <pre id="t35">Create a detailed test report for the following.
+
+<span class="sec">Test Type:</span> <span class="ph">[unit testing / integration testing / E2E / performance / security / QA]</span>
+<span class="sec">Project / System Tested:</span>
+<span class="ph">[NAME AND VERSION OF THE SYSTEM]</span>
+
+<span class="sec">Test Environment:</span>
+- OS / Platform: <span class="ph">[e.g. Windows 11, Ubuntu 22.04]</span>
+- Tools used: <span class="ph">[e.g. Jest, Selenium, JMeter]</span>
+- Date range: <span class="ph">[WHEN TESTS WERE RUN]</span>
+
+<span class="sec">Test Results Summary:</span>
+- Total tests: <span class="ph">[NUMBER]</span>
+- Passed: <span class="ph">[NUMBER]</span>
+- Failed: <span class="ph">[NUMBER]</span>
+- Skipped: <span class="ph">[NUMBER]</span>
+- Pass rate: <span class="ph">[PERCENTAGE]</span>
+
+<span class="sec">Failed Tests / Bugs Found:</span>
+<span class="ph">[LIST FAILED TESTS OR BUGS WITH ERROR MESSAGES]</span>
+
+<span class="sec">Recommendations:</span> <span class="ph">[e.g. fixes needed before release / areas for improvement / performance optimizations]</span>
+<span class="sec">Format:</span> <span class="ph">[executive summary + detailed results / full technical report]</span></pre>
+          <button class="copy-btn" onclick="copyTemplate('t35', this)">⎘ Copy</button>
+        </div>
+      </div>
+
+      <div class="card" data-cat="document" data-id="t36">
+        <div class="card-header">
+          <div class="card-title">📈 Progress Report</div>
+          <button class="star-btn" title="Add to Favorites" onclick="toggleFavorite('t36', this)">★</button>
+          <span class="tag c-green">Report</span>
+        </div>
+        <div class="card-body">
+          <pre id="t36">Write a progress report for the following project / initiative.
+
+<span class="sec">Project Name:</span> <span class="ph">[PROJECT NAME]</span>
+<span class="sec">Reporting Period:</span> <span class="ph">[e.g. Week of March 10-16 / Q1 2026 / Month of February]</span>
+<span class="sec">Prepared For:</span> <span class="ph">[e.g. stakeholders / manager / team / client]</span>
+
+<span class="sec">Executive Summary:</span>
+<span class="ph">[2-3 SENTENCES ON OVERALL PROGRESS]</span>
+
+<span class="sec">Key Accomplishments This Period:</span>
+- <span class="ph">[MILESTONE 1 ACHIEVED]</span>
+- <span class="ph">[MILESTONE 2 ACHIEVED]</span>
+- <span class="ph">[MILESTONE 3 ACHIEVED]</span>
+
+<span class="sec">Work In Progress:</span>
+- <span class="ph">[TASK 1 - % COMPLETE]</span>
+- <span class="ph">[TASK 2 - % COMPLETE]</span>
+
+<span class="sec">Blockers / Challenges:</span>
+<span class="ph">[ANY ISSUES DELAYING PROGRESS OR "none"]</span>
+
+<span class="sec">Next Steps:</span>
+- <span class="ph">[WHAT'S PLANNED FOR NEXT PERIOD]</span>
+
+<span class="sec">Metrics / KPIs:</span> <span class="ph">[ANY NUMBERS THAT SHOW PROGRESS]</span>
+<span class="sec">Budget Status:</span> <span class="ph">[spent vs. allocated or "N/A"]</span></pre>
+          <button class="copy-btn" onclick="copyTemplate('t36', this)">⎘ Copy</button>
+        </div>
+      </div>
+
+      <div class="card" data-cat="document" data-id="t37">
+        <div class="card-header">
+          <div class="card-title">🏗️ Project Status Report</div>
+          <button class="star-btn" title="Add to Favorites" onclick="toggleFavorite('t37', this)">★</button>
+          <span class="tag c-green">Report</span>
+        </div>
+        <div class="card-body">
+          <pre id="t37">Create a comprehensive project status report.
+
+<span class="sec">Project:</span> <span class="ph">[PROJECT NAME]</span>
+<span class="sec">Report Date:</span> <span class="ph">[CURRENT DATE]</span>
+<span class="sec">Project Manager:</span> <span class="ph">[NAME]</span>
+<span class="sec">Project Phase:</span> <span class="ph">[planning / execution / testing / deployment / completed]</span>
+
+<span class="sec">Overall Status:</span> <span class="ph">[green / yellow / red] — [brief explanation]</span>
+
+<span class="sec">Timeline:</span>
+- Start Date: <span class="ph">[DATE]</span>
+- Target Completion: <span class="ph">[DATE]</span>
+- % Complete: <span class="ph">[PERCENTAGE]</span>
+- On Schedule: <span class="ph">[yes / no / explain variance]</span>
+
+<span class="sec">Budget:</span>
+- Allocated: <span class="ph">[AMOUNT]</span>
+- Spent: <span class="ph">[AMOUNT]</span>
+- Remaining: <span class="ph">[AMOUNT]</span>
+- On Budget: <span class="ph">[yes / no / explain variance]</span>
+
+<span class="sec">Key Deliverables Status:</span>
+| Deliverable | Status | Notes |
+|-------------|--------|-------|
+| <span class="ph">[ITEM 1]</span> | <span class="ph">[done/in progress/blocked]</span> | <span class="ph">[notes]</span> |
+| <span class="ph">[ITEM 2]</span> | <span class="ph">[done/in progress/blocked]</span> | <span class="ph">[notes]</span> |
+
+<span class="sec">Risks & Issues:</span>
+- <span class="ph">[RISK 1 — mitigation plan]</span>
+- <span class="ph">[RISK 2 — mitigation plan]</span>
+
+<span class="sec">Upcoming Milestones:</span> <span class="ph">[NEXT 2-3 KEY DATES]</span></pre>
+          <button class="copy-btn" onclick="copyTemplate('t37', this)">⎘ Copy</button>
+        </div>
+      </div>
+
+      <div class="card" data-cat="document" data-id="t38">
+        <div class="card-header">
+          <div class="card-title">⚡ Performance Report</div>
+          <button class="star-btn" title="Add to Favorites" onclick="toggleFavorite('t38', this)">★</button>
+          <span class="tag c-green">Report</span>
+        </div>
+        <div class="card-body">
+          <pre id="t38">Write a performance report analyzing the following.
+
+<span class="sec">Subject:</span> <span class="ph">[e.g. system / team / employee / campaign / application]</span>
+<span class="sec">Time Period:</span> <span class="ph">[e.g. last quarter / past 6 months / 2025]</span>
+<span class="sec">Purpose:</span> <span class="ph">[e.g. quarterly review / performance review / optimization]</span>
+
+<span class="sec">Key Metrics Analyzed:</span>
+- <span class="ph">[METRIC 1 — e.g. uptime: 99.9%]</span>
+- <span class="ph">[METRIC 2 — e.g. response time: 150ms]</span>
+- <span class="ph">[METRIC 3 — e.g. throughput: 1000 req/s]</span>
+
+<span class="sec">Performance Summary:</span>
+<span class="ph">[OVERALL ASSESSMENT — meeting goals or not]</span>
+
+<span class="sec">Strengths:</span>
+- <span class="ph">[AREA PERFORMING WELL 1]</span>
+- <span class="ph">[AREA PERFORMING WELL 2]</span>
+
+<span class="sec">Areas for Improvement:</span>
+- <span class="ph">[UNDERPERFORMING AREA 1]</span>
+- <span class="ph">[UNDERPERFORMING AREA 2]</span>
+
+<span class="sec">Benchmark Comparison:</span> <span class="ph">[vs. previous period / industry standard / target]</span>
+
+<span class="sec">Recommendations:</span>
+- <span class="ph">[ACTIONABLE RECOMMENDATION 1]</span>
+- <span class="ph">[ACTIONABLE RECOMMENDATION 2]</span>
+
+<span class="sec">Format:</span> <span class="ph">[dashboard style with charts / narrative analysis / technical breakdown]</span></pre>
+          <button class="copy-btn" onclick="copyTemplate('t38', this)">⎘ Copy</button>
+        </div>
+      </div>
+
+    </div>
+
     <!-- ─── CREATIVE ─── -->
     <div class="section-label" data-section="creative">
       <div class="section-icon si-pink">🎨</div>
@@ -1505,6 +1703,7 @@ Provide: an improved version of the process, tools/automation suggestions, and e
         let catMatch = false;
         if (cat === 'all') catMatch = true;
         else if (cat === 'fav') catMatch = favorites.includes(cId);
+        else if (cat === 'report') catMatch = (cId >= 't34' && cId <= 't38');
         else catMatch = (cCat === cat);
 
         const queryMatch = q === '' || text.includes(q);
